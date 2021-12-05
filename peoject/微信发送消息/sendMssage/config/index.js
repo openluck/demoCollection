@@ -13,7 +13,7 @@ module.exports = {
     NICKNAME: '梦', //昵称
     MEMORIAL_DAY: '2015/04/18', //你和的纪念日
     CITY: '上海', //所在城市（城市名称，不要带“市”）
-    SENDDATE: '0 19 17 * * *', //定时发送时间 每天8点06分0秒发送，规则见 /schedule/index.js
+    SENDDATE: '0 00 9 * * *', //定时发送时间 每天8点06分0秒发送，规则见 /schedule/index.js
     TXAPIKEY: 'bbfffec65988e94440ac77c9a1814eb5', //此处须填写个人申请的天行apikey,请替换成自己的 申请地址https://www.tianapi.com/signup.html?source=474284281
 
     // 高级功能配置项（非必填项）

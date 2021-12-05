@@ -26,7 +26,7 @@ class Admin extends Component {
         <Layout>
           <Header></Header>
           <Content style={{backgroundColor: '#fff', margin: '15px'}}>
-            <Switch>
+            <Switch> 
               <Redirect exact from='/' to='/home'></Redirect>
               <Route path='/home' exact component={Home}></Route>
               <Route path='/user' exact component={User}></Route>
