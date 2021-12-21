@@ -4,7 +4,7 @@
  * @Author: OpenLcuk
  * @Date: 2021-10-13 16:20:53
  * @LastEditors: OpenLcuk
- * @LastEditTime: 2021-11-12 17:08:54
+ * @LastEditTime: 2021-12-21 10:30:57
 -->
 <template>
   <div id="app">
@@ -26,4 +26,7 @@ export default {
 </script>
 
 <style>
+#app {
+  height: 100%;
+}
 </style>

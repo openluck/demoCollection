@@ -4,10 +4,10 @@
  * @Author: OpenLcuk
  * @Date: 2021-11-12 10:45:01
  * @LastEditors: OpenLcuk
- * @LastEditTime: 2021-11-12 15:18:13
+ * @LastEditTime: 2021-12-21 10:33:25
 -->
 <template>
-  <a-layout id="components-layout-demo-custom-trigger">
+  <a-layout id="components-layout-demo-custom-trigger " class="layout-container">
     <a-layout-sider v-model="collapsed" :trigger="null" collapsible>
       <div class="logo" />
       <a-menu theme="dark" mode="inline" :default-selected-keys="['1']">
@@ -42,7 +42,7 @@
           minHeight: '280px',
         }"
       >
-        Content
+        <router-view></router-view>
       </a-layout-content>
     </a-layout>
   </a-layout>
@@ -61,6 +61,9 @@ export default {
 };
 </script>
 <style>
+.layout-container {
+  height: 100%;
+}
 #components-layout-demo-custom-trigger .trigger {
   font-size: 18px;
   line-height: 64px;
